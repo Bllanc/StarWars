@@ -1,5 +1,5 @@
 body {
-    background-image: url(../res/img/background-stars-desktop_00cbf8a9dddd.webp);
+    background-image: url(../res/img/background-stars-desktop_00cbf8a9dddd.jpg);
 }
 
 ul {
@@ -29,7 +29,7 @@ ul img {
 
 .affiche {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
     margin-top: 3%;
 }
@@ -40,10 +40,24 @@ ul img {
 
 .titre {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
 }
 
 .titre img{
     width: 500px;
+}
+
+p{
+    color: white;
+    width: 1600px;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.tds{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+height: 1100px;
 }
