@@ -80,14 +80,14 @@ ul img {
 
 @media (max-width: 1700px) {
   .affiche img {
-    width: 300px;
+    width: 200px;
   }
 
   .logo1 img,
   .logo2 img,
   .logo3 img,
   .logo4 img {
-    width: 150px;
+    width: 90px;
   }
 }
 
