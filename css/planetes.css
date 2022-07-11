@@ -74,6 +74,9 @@ section p {
 }
 
 @media (max-width: 1700px) {
+    body{
+        overflow-x: hidden;
+    }
     .affiche img {
         width: 300px;
     }
@@ -83,10 +86,10 @@ section p {
     ul {
         justify-content: space-between;
     }
-    .cadre1 {
-        width: 150px;
+    .cadre1 img {
+        width: 170px;
     }
-    .planete {
-        width: 150px;
+    section p {
+        font-size: 2rem;
     }
 }
