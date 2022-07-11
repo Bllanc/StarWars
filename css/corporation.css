@@ -183,10 +183,13 @@ ul img {
 
 @media (min-width: 2900px) and (max-width: 3200px) {
     .affiche img {
-        width: 600px;
+        width: 400px;
     }
-    .titre img {
-        width: 600px;
+    .logo1 img,
+    .logo2 img,
+    .logo3 img,
+    .logo4 img {
+        width: 160px;
     }
     li {
         font-size: 2.8rem;
