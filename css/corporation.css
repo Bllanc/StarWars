@@ -121,7 +121,7 @@ ul img {
 
 @media (min-width: 1700px) and (max-width: 2200px) {
     .affiche img {
-        width: 300px;
+        width: 250px;
     }
     .logo1 img,
     .logo2 img,

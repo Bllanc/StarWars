@@ -70,7 +70,7 @@ section p {
 
 @media (min-width: 1700px) and (max-width: 2200px) {
     .affiche img {
-        width: 300px;
+        width: 200px;
     }
     section p {
         font-size: 2rem;
