@@ -1,110 +1,108 @@
-@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Spectral:wght@200&display=swap");
 body {
-    background-image: url(../res/img/background-stars-desktop_00cbf8a9dddd.webp);
-    font-family: 'Spectral', serif;
+  background-image: url(../res/img/background-stars-desktop_00cbf8a9dddd.webp);
+  font-family: "Spectral", serif;
 }
-
 
 /* Effet de la barre lorsque la souris passe */
 
 .navbar ul li {
-    display: inline-block;
-    position: relative;
+  display: inline-block;
+  position: relative;
 }
 
 .navbar ul li::after {
-    content: "";
-    height: 3px;
-    width: 0%;
-    background: yellow;
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    transition: 0.5s;
+  content: "";
+  height: 3px;
+  width: 0%;
+  background: yellow;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
 }
 
 .navbar ul li:hover::after {
-    width: 100%;
+  width: 100%;
 }
-
 
 /* L'effet de la barre s'arrête ici */
 
 ul {
-    color: #04b1b7;
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+  color: red;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 a {
-    text-decoration: none;
-    color: #04b1b7;
+  text-decoration: none;
+  color: red;
 }
 
 .couleur {
-    color: red;
+  color: #04b1b7;
 }
 
 .couleur a {
-    color: red;
+  color: #04b1b7;
 }
 
 a:hover {
-    color: yellow;
+  color: yellow;
 }
 
 li {
-    font-size: 1.8rem;
+  font-size: 1.8rem;
 }
 
 ul img {
-    width: 180px;
+  width: 180px;
 }
 
 .ensemble {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .affiche img {
-    padding-top: 3%;
-    width: 600px;
+  padding-top: 3%;
+  width: 600px;
 }
 
 p {
-    color: white;
+  color: white;
 }
 
 section p {
-    width: 80%;
-    text-align: center;
-    margin: 0 auto;
-    font-size: 2.5rem;
-    padding-top: 4%;
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 2.5rem;
+  padding-top: 4%;
 }
 
 @media (max-width: 1700px) {
-    .affiche img {
-        width: 200px;
-    }
-    section p {
-        font-size: 1.5rem;
-    }
-    ul{
-        justify-content: space-between;
-    }
-    li {
-        font-size: 1.5rem;
-    }
+  .affiche img {
+    width: 200px;
+  }
+  section p {
+    font-size: 1.5rem;
+  }
+  ul {
+    justify-content: space-between;
+  }
+  li {
+    font-size: 1.5rem;
+  }
 }
 
 @media (min-width: 1700px) and (max-width: 2200px) {
-    .affiche img {
-        width: 200px;
-    }
-    section p {
-        font-size: 2rem;
-    }
+  .affiche img {
+    width: 200px;
+  }
+  section p {
+    font-size: 2rem;
+  }
 }
