@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@200&display=swap');
 body {
     background-image: url(../res/img/background-stars-desktop_00cbf8a9dddd.webp);
+    font-family: 'Spectral', serif;
 }
 
 ul {
@@ -19,7 +21,7 @@ a {
     color: yellow;
 }
 
-a:hover{
+a:hover {
     color: white;
 }
 
@@ -34,7 +36,7 @@ ul img {
     margin-top: 3%;
 }
 
-img{
+img {
     width: 700px;
 }
 
@@ -44,49 +46,52 @@ img{
     align-items: center;
 }
 
-.titre img{
+.titre img {
     width: 500px;
 }
 
-p{
+p {
     color: white;
     width: 1300px;
     font-size: 2rem;
     text-align: justify;
 }
 
-.tds{
-display: flex;
-justify-content: space-evenly;
-align-items: center;
-height: 1100px;
+.tds {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 1100px;
 }
-.movies{
+
+.movies {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
 }
-h1{
+
+h1 {
     color: white;
     font-size: 3rem;
     text-align: center;
-    padding-top: -2% ;
+    padding-top: -2%;
     margin-top: 1%;
 }
+
 .ep {
     display: flex;
     justify-content: space-evenly;
     width: 40%;
     margin-left: 20px;
-    padding: 1% ;
+    padding: 1%;
 }
-.ep img{
 
+.ep img {
     display: flex;
     width: 40%;
     margin-bottom: 1%;
-    padding-top: -3% ;
+    padding-top: -3%;
     padding: 3%;
 }

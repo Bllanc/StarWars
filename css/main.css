@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@200&display=swap');
 body {
     background-image: url(../res/img/background-stars-desktop_00cbf8a9dddd.webp);
+    font-family: 'Spectral', serif;
 }
 
 ul {
@@ -71,7 +73,7 @@ ul img {
     li {
         font-size: 1.5rem;
     }
-    ul{
+    ul {
         justify-content: space-between;
     }
 }
@@ -83,5 +85,4 @@ ul img {
     .titre img {
         width: 430px;
     }
-
 }
