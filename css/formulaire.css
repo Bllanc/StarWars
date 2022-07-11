@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@200&display=swap');
+body {
+    background-image: url(../res/img/background-stars-desktop_00cbf8a9dddd.webp);
+    font-family: 'Spectral', serif;
+}
+
+
+/* Effet de la barre lorsque la souris passe */
+
+.navbar ul li {
+    display: inline-block;
+    position: relative;
+}
+
+.navbar ul li::after {
+    content: "";
+    height: 3px;
+    width: 0%;
+    background: #ffffff;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
+}
+
+
+/* L'effet de la barre s'arrête ici */
+
+#div1 {
+    color: white;
+    width: 1300px;
+    font-size: 2rem;
+    text-align: left;
+}
+
+form {
+    text-align: right;
+    margin: 0 30%;
+}
+
+#form1 {
+    display: flex;
+    justify-content: end;
+}
+
+p {
+    color: white;
+    width: 1300px;
+    font-size: 2rem;
+    text-align: left;
+}
+
+section {
+    color: rgb(167, 23, 23);
+    width: 80%;
+    margin: 0 auto;
+    font-size: 2.5rem;
+    padding-top: 4%;
+}
+
+ul {
+    color: yellow;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+li {
+    font-size: 1.8rem;
+}
+
+h2 {
+    text-decoration: none;
+    text-align: center;
+    color: yellow;
+}
+
+a {
+    text-decoration: none;
+    color: yellow;
+}
+
+a:hover {
+    color: white;
+}
+
+ul img {
+    width: 180px;
+}
+
+.affiche {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.affiche img {
+    width: 500px;
+}
+
+.titre {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.titre img {
+    width: 500px;
+}
+
+@media (max-width: 1700px) {
+    .affiche img {
+        width: 300px;
+    }
+    .titre img {
+        width: 300px;
+    }
+}
+
+@media (min-width: 1700px) and (max-width: 2200px) {
+    .affiche img {
+        width: 430px;
+    }
+    .titre img {
+        width: 430px;
+    }
+}
+@media (min-width: 2900px) and (max-width: 3200px) {
+  .affiche img {
+    width: 600px;
+  }
+  .titre img {
+    width: 600px;
+  }
+}
