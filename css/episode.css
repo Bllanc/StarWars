@@ -63,7 +63,7 @@ ul img {
 }
 
 .affiche img {
-    width: 500px;
+    width: 1500px;
 }
 
 .titre {
@@ -140,3 +140,11 @@ ul {
         font-size: 1.5rem;
     }
 }
+@media (min-width: 2900px) and (max-width: 3200px) {
+    .affiche img {
+      width: 600px;
+    }
+    .titre img {
+      width: 600px;
+    }
+  }

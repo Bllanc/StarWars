@@ -108,3 +108,11 @@ section p {
         font-size: 2rem;
     }
 }
+@media (min-width: 2900px) and (max-width: 3200px) {
+    .affiche img {
+      width: 600px;
+    }
+    .titre img {
+      width: 600px;
+    }
+  }
