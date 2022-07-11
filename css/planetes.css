@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@200&display=swap');
 body {
+<<<<<<< HEAD
   background-image: url(../res/img/background-stars-desktop_00cbf8a9dddd.webp);
+=======
+    background-image: url(../res/img/background-stars-desktop_00cbf8a9dddd.webp);
+    font-family: 'Spectral', serif;
+>>>>>>> 750b3dea3c1c033be8ce679ce85169f9e3587a63
 }
 
 ul {
@@ -72,6 +78,7 @@ section p {
 }
 
 @media (max-width: 1700px) {
+<<<<<<< HEAD
   body {
     overflow-x: hidden;
   }
@@ -94,3 +101,21 @@ section p {
     width: 170px;
   }
 }
+=======
+    .affiche img {
+        width: 300px;
+    }
+    li {
+        font-size: 1.5rem;
+    }
+    ul {
+        justify-content: space-between;
+    }
+    .cadre1 {
+        width: 150px;
+    }
+    .planete {
+        width: 150px;
+    }
+}
+>>>>>>> 750b3dea3c1c033be8ce679ce85169f9e3587a63
