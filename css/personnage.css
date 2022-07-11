@@ -95,6 +95,11 @@ ul img {
 .perso {
     width: 100%;
     display: flex;
+    justify-content: space-around;
+}
+
+.perso img {
+    border-radius: 20px;
 }
 
 .movies {
@@ -157,6 +162,7 @@ img {
 h1 {
     font-size: 4rem;
     color: white;
+    text-align: center;
 }
 
 h2 {
