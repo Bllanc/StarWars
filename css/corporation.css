@@ -84,7 +84,10 @@ ul img {
 .cadre1,
 .cadre2,
 .cadre3,
-.cadre4 {
+.cadre4,
+.cadre5,
+.cadre6,
+.cadre7 {
     transition: all 1s ease-in-out;
 }
 
@@ -125,6 +128,39 @@ ul img {
 .logo3,
 .logo4 {
     margin-left: 16%;
+}
+
+.cadre5 img {
+    width: 400px;
+    border: 2px solid red;
+    border-radius: 20px;
+}
+
+.cadre5:hover {
+    transform: scale(1.1);
+    transition: all 1s ease-in-out;
+}
+
+.cadre6 img {
+    width: 400px;
+    border: 2px solid #23aea9;
+    border-radius: 20px;
+}
+
+.cadre6:hover {
+    transform: scale(1.1);
+    transition: all 1s ease-in-out;
+}
+
+.cadre7 img {
+    width: 400px;
+    border: 2px solid gray;
+    border-radius: 20px;
+}
+
+.cadre7:hover {
+    transform: scale(1.1);
+    transition: all 1s ease-in-out;
 }
 
 @media (max-width: 1700px) {
