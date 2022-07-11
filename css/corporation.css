@@ -182,9 +182,12 @@ ul img {
 }
 @media (min-width: 2900px) and (max-width: 3200px) {
   .affiche img {
-    width: 600px;
+    width: 450px;
   }
   .titre img {
-    width: 600px;
+    width: 450px;
   }
+}
+li {
+    font-size: 2.8rem;
 }
