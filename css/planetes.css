@@ -75,28 +75,16 @@ section p {
     .affiche img {
         width: 300px;
     }
-<<<<<<< HEAD
-    section p {
-        font-size: 1.8rem;
-    }
-}
-
-@media (min-width: 1700px) and (max-width: 2200px) {
-    .affiche img {
-        width: 400px;
-    }
-    section p {
-        font-size: 2rem;
-    }
-}
-=======
     li {
         font-size: 1.5rem;
     }
-    ul{
+    ul {
         justify-content: space-between;
     }
-    
+    .cadre1 {
+        width: 150px;
+    }
+    .planete {
+        width: 150px;
+    }
 }
-
->>>>>>> f90cf5bf49bcee44798d6914c78d785a18f467e6
