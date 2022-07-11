@@ -1,91 +1,96 @@
 body {
-    background-image: url(../res/img/background-stars-desktop_00cbf8a9dddd.webp);
+  background-image: url(../res/img/background-stars-desktop_00cbf8a9dddd.webp);
 }
 
 ul {
-    color: #04b1b7;
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+  color: #04b1b7;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 a {
-    text-decoration: none;
-    color: #04b1b7;
+  text-decoration: none;
+  color: #04b1b7;
 }
 
 .couleur {
-    color: white;
+  color: white;
 }
 
 .couleur a {
-    color: white;
+  color: white;
 }
 
 a:hover {
-    color: yellow;
+  color: yellow;
 }
 
 li {
-    font-size: 1.8rem;
+  font-size: 1.8rem;
 }
 
 ul img {
-    width: 180px;
+  width: 180px;
 }
 
 .ensemble1 {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .affiche img {
-    padding-top: 20%;
-    width: 300px;
+  padding-top: 20%;
+  width: 300px;
 }
 
 p {
-    color: white;
+  color: white;
 }
 
 section p {
-    width: 300px;
-    text-align: center;
-    margin: 0 auto;
-    font-size: 3rem;
-    padding-top: 4%;
+  width: 300px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 3rem;
+  padding-top: 4%;
 }
 
 .planete .planete1 {
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: column;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
 }
 
 .astres {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 @media (max-width: 1700px) {
-    .affiche img {
-        width: 300px;
-    }
-    li {
-        font-size: 1.5rem;
-    }
-    ul{
-        justify-content: space-between;
-    }
-    .cadre1{
-        width: 150px;
-    }
-    .planete{
-        width: 150px;
-    }
+  body {
+    overflow-x: hidden;
+  }
+  .affiche img {
+    width: 300px;
+  }
+  li {
+    font-size: 1.5rem;
+  }
+  ul {
+    justify-content: space-between;
+  }
+  .cadre1 {
+    width: 150px;
+  }
+  section p {
+    font-size: 1.5rem;
+  }
+  .cadre1 img {
+    width: 170px;
+  }
 }
-
