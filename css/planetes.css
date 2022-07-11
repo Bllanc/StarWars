@@ -81,6 +81,11 @@ section p {
     ul{
         justify-content: space-between;
     }
-    
+    .cadre1{
+        width: 150px;
+    }
+    .planete{
+        width: 150px;
+    }
 }
 
