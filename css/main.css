@@ -1,69 +1,80 @@
 body {
-  background-image: url(../res/img/background-stars-desktop_00cbf8a9dddd.webp);
+    background-image: url(../res/img/background-stars-desktop_00cbf8a9dddd.webp);
 }
 
 ul {
-  color: yellow;
-  list-style: none;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+    color: yellow;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 li {
-  font-size: 1.8rem;
+    font-size: 1.8rem;
 }
 
 a {
-  text-decoration: none;
-  color: yellow;
+    text-decoration: none;
+    color: yellow;
 }
 
 a:hover {
-  color: white;
+    color: white;
 }
 
 ul img {
-  width: 180px;
+    width: 180px;
 }
 
 .affiche {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  margin-top: 3%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 3%;
 }
 
 .affiche img {
-  width: 500px;
+    width: 500px;
+}
+
+#ep1,
+#ep2,
+#ep3 {
+    transition: all 1s ease-in-out;
+}
+
+#ep1:hover,
+#ep2:hover,
+#ep3:hover {
+    transform: scale(1.1);
+    transition: all 1s ease-in-out;
 }
 
 .titre {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .titre img {
-  width: 500px;
+    width: 500px;
 }
 
 @media (max-width: 1700px) {
-  .affiche img {
-    width: 300px;
-  }
-
-  .titre img {
-    width: 300px;
-  }
+    .affiche img {
+        width: 300px;
+    }
+    .titre img {
+        width: 300px;
+    }
 }
 
 @media (min-width: 1700px) and (max-width: 2200px) {
-  .affiche img {
-      width: 430px;
+    .affiche img {
+        width: 430px;
     }
-  
     .titre img {
-      width: 430px;
+        width: 430px;
     }
 }
