@@ -57,6 +57,20 @@ section p {
     padding-top: 4%;
 }
 
+.planete .planete1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.astres {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 @media (max-width: 1700px) {
     .affiche img {
         width: 300px;
@@ -73,18 +87,4 @@ section p {
     section p {
         font-size: 2rem;
     }
-}
-
-.planete .planete1 {
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: column;
-}
-
-.astres {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
 }

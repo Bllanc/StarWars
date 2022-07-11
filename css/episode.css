@@ -19,7 +19,7 @@ a {
     color: yellow;
 }
 
-a:hover{
+a:hover {
     color: white;
 }
 
@@ -34,7 +34,7 @@ ul img {
     margin-top: 3%;
 }
 
-.affiche img{
+.affiche img {
     width: 500px;
 }
 
@@ -44,20 +44,20 @@ ul img {
     align-items: center;
 }
 
-.titre img{
+.titre img {
     width: 500px;
 }
 
-p{
+p {
     color: white;
     width: 1600px;
     font-size: 1.5rem;
     text-align: justify;
 }
 
-.tds{
-display: flex;
-justify-content: space-evenly;
-align-items: center;
-height: 1100px;
+.tds {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 1100px;
 }
