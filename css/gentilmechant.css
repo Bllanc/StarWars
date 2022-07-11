@@ -1,56 +1,61 @@
 @import url("https://fonts.googleapis.com/css2?family=Spectral:wght@200&display=swap");
 body {
-  background-image: url(../res/img/background-stars-desktop_00cbf8a9dddd.webp);
-  font-family: "Spectral", serif;
+    background-image: url(../res/img/background-stars-desktop_00cbf8a9dddd.webp);
+    font-family: "Spectral", serif;
 }
 
 ul {
-  color: yellow;
-  list-style: none;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+    color: yellow;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 li {
-  font-size: 1.8rem;
+    font-size: 1.8rem;
 }
+
+
 /* Effet de la barre lorsque la souris passe */
+
 .navbar ul li {
-  display: inline-block;
-  position: relative;
+    display: inline-block;
+    position: relative;
 }
 
 .navbar ul li::after {
-  content: "";
-  height: 3px;
-  width: 0%;
-  background: #ffffff;
-  position: absolute;
-  left: 0;
-  bottom: -10px;
-  transition: 0.5s;
+    content: "";
+    height: 3px;
+    width: 0%;
+    background: #ffffff;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
 }
 
 .navbar ul li:hover::after {
-  width: 100%;
+    width: 100%;
 }
+
+
 /* L'effet de la barre s'arrête ici */
 
 a {
-  text-decoration: none;
-  color: yellow;
+    text-decoration: none;
+    color: yellow;
 }
 
 a:hover {
-  color: white;
+    color: white;
 }
 
 ul img {
-  width: 180px;
+    width: 180px;
 }
 
-img{
+img {
     width: 100px;
 }
 
@@ -62,43 +67,33 @@ img{
     justify-content: center;
     align-items: center;
     gap: 5%;
-  }
-  
-  .element {
+}
+
+.element {
     width: 170px;
     height: 200px;
     border-radius: 20px;
-  }
-  
-  .el1 {
-    background-color: red;
-    background-size: cover;
-  }
-  
-  .el2 {
-    background-color: blue;
-  }
-  
-  .el3 {
-    background-color: red;
-  }
+    z-index: 2;
+    transition: all 1s ease-in-out;
+}
+
+.element:hover {
+    transform: scale(1.1);
+    box-shadow: 5px -5px 25px rgba(255, 255, 255, 0.695);
+    transition: all 1s ease-in-out;
+}
+
+.element img {
+    width: 100%;
+    border-radius: 20px;
+    height: 200px;
+}
 
 @media (max-width: 1700px) {
     li {
-      font-size: 1.5rem;
+        font-size: 1.5rem;
     }
     ul {
-      justify-content: space-between;
+        justify-content: space-between;
     }
-  }
-  @media (min-width: 2900px) and (max-width: 3200px) {
-    .affiche img {
-      width: 600px;
-    }
-    .titre img {
-      width: 600px;
-    }
-  }
-  li {
-    font-size: 2.8rem;
 }
