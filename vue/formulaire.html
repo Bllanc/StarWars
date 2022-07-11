@@ -8,59 +8,70 @@
     <link rel="stylesheet" type="text/css" media="screen" href="../css/formulaire.css" />
     <title>Star Wars - Formulaire</title>
 </head>
+
 <body>
     <header>
         <nav class="navbar">
-            <ul>
-                <img src="../res/img/Star_Wars_Logo..png" alt="">
+            <ul class="couleur">
+                <img src="../res/img/Star_Wars_Logo.white.png" alt="" />
                 <a href="../index.html">
                     <li>Accueil</li>
                 </a>
-                <li>Personnages</li>
-                <a href="./planetes.html"><li>Planètes</li></a>
-                <a href="./corporation.html"><li>Corporation</li></a>
-                <li>Contact</li>
-                <li>Inscription</li>
-                <li>Connexion</li>
-                <img src="../res/img/Star_Wars_Logo..png" alt="">
+                <a href="perso_dir.html">
+                    <li>Personnages</li>
+                </a>
+
+                <a href="planetes.html">
+                    <li>Planètes</li>
+                </a>
+                <a href="corporation.html">
+                    <li>Corporation</li>
+                </a>
+                <a href="formulaire.html">
+                    <li>Contact</li>
+                </a>
+
+                <li>Inscription / Connexion</li>
+                <img src="../res/img/Star_Wars_Logo.white.png" alt="" />
             </ul>
         </nav>
     </header>
-<h1>
-    Formulaire de contact 
-</h1>
-<section>
 
-    <h2>Laissez-nous vos coordonnées et posez-nous vos questions ou faîtes nous part de vos suggestions.</h2>
+    <h1>
+        Formulaire de contact
+    </h1>
+    <section>
 
-<form action="/formulaire.php" method="get"> 
-    <div class="form1">
-        
-            <label for="Nom">Votre nom:</label>
-        
-            <input type="text" name="nomFormulaire" id="nomFormulaire" required/>  
-    </div>
-    <br>
-    <div class="form1">
-            <label for="Prenom">Votre prénom:</label>
-    
-            <input type="text" name="prenomFormulaire" id="prenomFormulaire"/>
-    </div>
-    <div class="form1">
-        <label for="Email">Votre adresse email:</label>
-        <input type="email" name="emailFormulaire" id="emailFormulaire" required/>
-    </div>
-    <br>
-    <div class="form4">
-        <label for="questions">Vos questions,<br>remarques ou<br> suggestions:</label><br>
-        <textarea name="messageFormulaire"  id="messageFormulaire" rows="10" cols="30">
+        <h2>Laissez-nous vos coordonnées et posez-nous vos questions ou faîtes nous part de vos suggestions.</h2>
+
+        <form action="/formulaire.php" method="get">
+            <div class="form1">
+
+                <label for="Nom">Votre nom:</label>
+
+                <input type="text" name="nomFormulaire" id="nomFormulaire" required/>
+            </div>
+            <br>
+            <div class="form1">
+                <label for="Prenom">Votre prénom:</label>
+
+                <input type="text" name="prenomFormulaire" id="prenomFormulaire" />
+            </div>
+            <div class="form1">
+                <label for="Email">Votre adresse email:</label>
+                <input type="email" name="emailFormulaire" id="emailFormulaire" required/>
+            </div>
+            <br>
+            <div class="form4">
+                <label for="questions">Vos questions,<br>remarques ou<br> suggestions:</label><br>
+                <textarea name="messageFormulaire" id="messageFormulaire" rows="10" cols="30">
         Votre message ici...
         </textarea>
-    </div>
-    <input type="submit" value="Envoyer">
-</form>
+            </div>
+            <input type="submit" value="Envoyer">
+        </form>
 
-</section>
+    </section>
 </body>
 
 </html>
