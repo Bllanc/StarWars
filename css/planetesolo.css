@@ -1,6 +1,28 @@
     body {
         background-image: url(../res/img/background-stars-desktop_00cbf8a9dddd.webp);
     }
+    /* Effet de la barre lorsque la souris passe */
+    
+    .navbar ul li {
+        display: inline-block;
+        position: relative;
+    }
+    
+    .navbar ul li::after {
+        content: "";
+        height: 3px;
+        width: 0%;
+        background: #ffffff;
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        transition: 0.5s;
+    }
+    
+    .navbar ul li:hover::after {
+        width: 100%;
+    }
+    /* L'effet de la barre s'arrête ici */
     
     ul {
         color: yellow;
