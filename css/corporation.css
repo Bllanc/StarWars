@@ -65,6 +65,18 @@ ul img {
   transform: scale(1.1);
   transition: all 1s ease-in-out;
 }
+.cadre2:hover {
+  transform: scale(1.1);
+  transition: all 1s ease-in-out;
+}
+.cadre3:hover {
+  transform: scale(1.1);
+  transition: all 1s ease-in-out;
+}
+.cadre4:hover {
+  transform: scale(1.1);
+  transition: all 1s ease-in-out;
+}
 
 .affichelogo {
   display: flex;
