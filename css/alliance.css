@@ -61,10 +61,16 @@ section p {
 
 @media (max-width: 1700px) {
     .affiche img {
-        width: 300px;
+        width: 200px;
     }
     section p {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
+    }
+    ul{
+        justify-content: space-between;
+    }
+    li {
+        font-size: 1.5rem;
     }
 }
 
