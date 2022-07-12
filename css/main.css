@@ -106,10 +106,10 @@ ul img {
 
 @media (min-width: 1700px) and (max-width: 2200px) {
     .affiche img {
-        width: 430px;
+        width: 380px;
     }
     .titre img {
-        width: 430px;
+        width: 380px;
     }
 }
 
