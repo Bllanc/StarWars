@@ -31,7 +31,7 @@ body {
 /* L'effet de la barre s'arrête ici */
 
 ul {
-    color: red;
+    color: #04b1b7;
     list-style: none;
     display: flex;
     justify-content: space-evenly;
@@ -40,15 +40,15 @@ ul {
 
 a {
     text-decoration: none;
-    color: red;
+    color: #04b1b7;
 }
 
 .couleur {
-    color: #04b1b7;
+    color: red;
 }
 
 .couleur a {
-    color: #04b1b7;
+    color: red;
 }
 
 a:hover {

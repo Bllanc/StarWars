@@ -1,9 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
 body {
-    background-image: url(../res/img/background-stars-desktop_00cbf8a9dddd.webp);
-    font-family: 'Spectral', serif;
+  background-image: url(../../StarWars/res/img/background-stars-desktop_00cbf8a9dddd.webp);
+  font-family: "Spectral", serif;
 }
 
+ul {
+    color: yellow;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+li {
+    font-size: 1.8rem;
+}
 
 /* Effet de la barre lorsque la souris passe */
 
@@ -30,56 +42,6 @@ body {
 
 /* L'effet de la barre s'arrête ici */
 
-#div1 {
-    color: white;
-    width: 1300px;
-    font-size: 2rem;
-    text-align: left;
-}
-
-form {
-    text-align: right;
-    margin: 0 30%;
-}
-
-#form1 {
-    display: flex;
-    justify-content: end;
-}
-
-p {
-    color: white;
-    width: 1300px;
-    font-size: 2rem;
-    text-align: left;
-}
-
-section {
-    color: rgb(167, 23, 23);
-    width: 80%;
-    margin: 0 auto;
-    font-size: 2.5rem;
-    padding-top: 4%;
-}
-
-ul {
-    color: yellow;
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-li {
-    font-size: 1.8rem;
-}
-
-h2 {
-    text-decoration: none;
-    text-align: center;
-    color: yellow;
-}
-
 a {
     text-decoration: none;
     color: yellow;
@@ -104,14 +66,83 @@ ul img {
     width: 500px;
 }
 
-.titre {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+form {
+  padding: 30px;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 10px;
+  width: 700px;
+  margin-left: 25%;
+}
+form h1 {
+  font-size: 20px;
+  color: white;
+}
+form .separation {
+  width: 100%;
+  height: 1px;
+  background-color: #747cdf;
+}
+form .corps-formulaire {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+form .corps-formulaire .groupe {
+  position: relative; /* Pour mettre positionner l’élément dans le flux normal de la page */
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+form .corps-formulaire .gauche .groupe input {
+  margin-top: 5px;
+  padding: 10px 5px 10px 30px;
+  border: 1px solid #c9c9c9;
+  outline-color: #747cdf;
+  border-radius: 5px;
+}
+form .corps-formulaire .gauche .groupe i {
+  position: absolute; /* positionné par rapport à son parent le plus proche positionné */
+  left: 0;
+  top: 25px;
+  padding: 9px 8px;
+  color: #747cdf;
+}
+form .corps-formulaire .droite {
+  margin-left: 40px;
+}
+form .corps-formulaire .droite .groupe {
+  height: 100%;
+}
+form .corps-formulaire .droite .groupe textarea {
+  margin-top: 5px;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border: 2px solid #747cdf;
+  outline: none;
+  border-radius: 5px;
+  resize: none;
+  height: 80%;
+  width: 400px;
+}
+form .pied-formulaire button {
+  margin-top: 10px;
+  background-color: #747cdf;
+  color: white;
+  font-size: 15px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+form .pied-formulaire button:hover {
+  transform: scale(1.05);
 }
 
-.titre img {
-    width: 500px;
+label {
+  color: white;
 }
 
 @media (max-width: 1700px) {
@@ -121,25 +152,10 @@ ul img {
     .titre img {
         width: 300px;
     }
-}
-
-@media (min-width: 1700px) and (max-width: 2200px) {
-    .affiche img {
-        width: 430px;
-    }
-    .titre img {
-        width: 430px;
-    }
-}
-
-@media (min-width: 2900px) and (max-width: 3200px) {
-    .affiche img {
-        width: 600px;
-    }
-    .titre img {
-        width: 600px;
-    }
     li {
-        font-size: 2.8rem;
+        font-size: 1.5rem;
+    }
+    ul {
+        justify-content: space-between;
     }
 }
