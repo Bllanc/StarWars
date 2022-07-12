@@ -90,7 +90,8 @@ ul img {
 .cadre3,
 .cadre4,
 .cadre5,
-.cadre6 {
+.cadre6,
+.cadre7 {
     transition: all 1s ease-in-out;
 }
 
@@ -151,6 +152,17 @@ ul img {
 }
 
 .cadre6:hover {
+    transform: scale(1.1);
+    transition: all 1s ease-in-out;
+}
+
+.cadre7 img {
+    width: 400px;
+    border: 2px solid grey;
+    border-radius: 20px;
+}
+
+.cadre7:hover {
     transform: scale(1.1);
     transition: all 1s ease-in-out;
 }
