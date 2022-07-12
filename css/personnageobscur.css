@@ -1,0 +1,336 @@
+@font-face {
+    font-family:"DINRegular.ttf";
+    src: url("../res/font/DINRegular.ttf");
+}
+body {
+    background-image: url(../res/img/fond\ obscur.png)
+}
+
+
+/* Effet de la barre lorsque la souris passe */
+
+.navbar ul li {
+    display: inline-block;
+    position: relative;
+}
+
+.navbar ul li::after {
+    content: "";
+    height: 3px;
+    width: 0%;
+    background: #ffffff;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
+}
+
+
+/* L'effet de la barre s'arrête ici */
+
+ul {
+    color: rgb(255, 0, 0);
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+li {
+    font-size: 1.8rem;
+    font-family:"DINRegular.ttf";
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+
+a:hover {
+    color: white;
+}
+
+ul img {
+    width: 180px;
+}
+
+h1 {
+    color: white;
+    font-size: 5rem;
+    width: 380px;
+    text-align: center;
+    font-family:"DINRegular.ttf";
+}
+
+h2 {
+    color: white;
+    font-size: 3rem;
+    font-family:"DINRegular.ttf";
+}
+
+h3 {
+    color: white;
+    font-size: 3rem;
+    font-family:"DINRegular.ttf";
+}
+
+
+.perso {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.perso1 {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 1%;
+
+}
+.perso2 {
+    padding: 1%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+
+}
+.perso2 {
+    padding: 1%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1%;
+
+}
+
+.ep {
+    border: 1px solid white;
+    padding-top: 3%;
+    width: 380px;
+    margin-top: 1%;
+    border-radius: 15px;
+    padding: 3%;
+}
+
+.photomovie {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5%;
+
+}
+
+.planete {
+    width: 380px;
+}
+
+.indentification {
+    display: flex;
+    justify-content: space-evenly;
+
+    align-items: center;
+    border: 1px solid white;
+}
+
+.photo img {
+    width: 400px;
+    border-radius: 50%;
+}
+
+.planete {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.statut {
+    display: flex;
+}
+.corp {
+    width: 280px;
+}
+p {
+    color: white;
+    font-size: 2rem;
+    font-family:"DINRegular.ttf";
+}
+
+
+
+/* .acteur {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+.personnage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 200px;
+    padding-top: 200px;
+    margin-bottom: 0px;
+}
+
+.movie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 400px;
+    padding-bottom: 10%;
+}
+
+.id {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 50px;
+}
+
+.acteur {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.perso {
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    padding-bottom: 10%;
+}
+
+.perso img {
+    border-radius: 20px;
+}
+
+
+.perso img {
+    width: 300px;
+    display: flex;
+}
+
+.info {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    
+}
+
+.info1 {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    flex-direction: column;
+    width: 800px;
+    height: 100px;
+
+}
+
+.planete {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 100px;
+}
+
+img {
+    width: 450px;
+}
+
+.etat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 800px;
+    height: 100px;
+}
+
+.history {
+    text-align: center;
+    width: 100%;
+    height: 300px;
+    color: white;
+    font-size: 2rem;
+    padding-bottom: 50%;
+}
+p {
+    padding-bottom: 10%;
+}
+
+h1 {
+    font-size: 5rem;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    font-size: 3rem;
+    color: white;
+}
+h3 {
+    font-size: 3rem;
+    color: white;
+}
+
+.cote {
+    width: 270px;
+}
+
+.photomovie {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 100px;
+    padding-bottom: 18%;
+}
+
+.photomovie img {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+}
+
+.ep {
+    width: 400px;
+    border: 1px solid white;
+    padding: 1%;
+    padding-top: 1%;
+    border-radius: 10px;
+}
+
+@media (max-width: 1700px) {
+    li {
+        font-size: 1.5rem;
+    }
+    ul {
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 2900px) and (max-width: 3200px) {
+    
+    li {
+        font-size: 3.8rem;
+    }
+}
+.fiche {
+    border: 1px solid white;
+    width: 80%;
+    height: 400px;
+    margin-bottom: 150px;
+} */

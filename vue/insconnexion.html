@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/main.css" />
+    <title>Star Wars - Inscription/Connexion</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <img src="../res/img/Star_Wars_Logo..png" alt="" />
+                <a href="../index.html">
+                    <li>Accueil</li>
+                </a>
+                <a href="vue/perso_dir.html/">
+                    <li>Personnages</li>
+                </a>
+                <a href="vue/planetes.html">
+                    <li>Planètes</li>
+                </a>
+                <a href="vue/corporation.html">
+                    <li>Corporation</li>
+                </a>
+                <a href="vue/formulaire.html">
+                    <li>Contact</li>
+                </a>
+                <a href="vue/insconnexion.html">
+                    <li>Inscription / Connexion</li>
+                </a>
+                <img src="../res/img/Star_Wars_Logo..png" alt="" />
+            </ul>
+        </nav>
+    </header>
+    <h1 style="color: white;">
+        Inscription / Connexion
+    </h1>
+    <section>
+    <h3 style="color: white;">Vous souhaitez vous inscrire pour:</h3>
+        <ul>
+            <li>Recevoir des nouvelles de ce site</li>
+            <li>avoir accès aux forums de discussion dédiés à Star Wars</li>
+            <li>acheter des goodies</li>
+            <li>...</li>
+        </ul>
+            <label for="inscription" style="color: white;">INSCRIPTION:</label>
+            <form action="/inscription.php" method="get">
+                <div class="idNom">
+                    <label for="Nom" style="color: white;">Votre nom:</label>
+                    <input type="text" name="nomInscription" id="nomInscription" required/>
+                </div>
+                <div class="idPrenom">
+                    <label for="Prenom" style="color: white;">Votre prénom:</label>
+                    <input type="text" name="prenomInscription" id="prenomInscription" />
+                </div>
+                <div class="idMail">
+                    <label for="Email" style="color: white;">Votre adresse email:</label>
+                    <input type="email" name="emailInscription" id="emailInscription" required/>
+                </div>
+                <input type="submit" value="Inscription">
+                <h6 style="color: white;">Vous recevrez vos identifiants nécessaires pour vous connecter par mail</h6>
+            </form>
+            
+        </h2>
+        <h2 style="color: white;">CONNEXION:</h2>
+        <form action="/connexion.php" method="get"></form>
+        Veuillez saisir vos identifiants:
+        <div>
+            <label for="Nom" style="color: white;">Nom:</label>
+            <input type="text" name="nomInscription" id="nomInscription" required/>
+        </div>
+        <div>
+            <label for="pwd" style="color: white;">mot de passe:</label>
+            <input type="password" name="pwdInscription" id="pwdInscription" required/>
+            <input type="submit" value="Connexion">
+        </div>
+        </form>
+    </section>
+</body>
+
+</html>
