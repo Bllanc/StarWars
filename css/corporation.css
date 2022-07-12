@@ -1,7 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@200&display=swap');
+@font-face {
+    font-family: "DINRegular.ttf";
+    src: url("../res/font/DINRegular.ttf");
+}
+
 body {
     background-image: url(../res/img/background-stars-desktop_00cbf8a9dddd.webp);
-    font-family: 'Spectral', serif;
+    font-family: "DINRegular.ttf";
 }
 
 
@@ -180,11 +184,18 @@ ul img {
         width: 140px;
     }
 }
+
 @media (min-width: 2900px) and (max-width: 3200px) {
-  .affiche img {
-    width: 600px;
-  }
-  .titre img {
-    width: 600px;
-  }
+    .affiche img {
+        width: 400px;
+    }
+    .logo1 img,
+    .logo2 img,
+    .logo3 img,
+    .logo4 img {
+        width: 160px;
+    }
+    li {
+        font-size: 2.8rem;
+    }
 }
