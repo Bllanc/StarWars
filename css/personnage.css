@@ -8,7 +8,6 @@ body {
 
 
 /* Effet de la barre lorsque la souris passe */
-
 .navbar ul li {
     display: inline-block;
     position: relative;
@@ -28,8 +27,6 @@ body {
 .navbar ul li:hover::after {
     width: 100%;
 }
-
-
 /* L'effet de la barre s'arrête ici */
 
 ul {
@@ -320,12 +317,30 @@ h3 {
     ul {
         justify-content: space-between;
     }
+h2{
+    font-size: 2rem;
+}
+.movie{
+    height: 100px;
+}
+section p{
+    font-size: 2rem;
+}
+.etat img{
+    width: 200px;
+}
+.history p {
+    font-size: 2rem;
+    width: 1300px;
+    margin: 0 auto;
+    padding-top: 2%;
+}
 }
 
 @media (min-width: 2900px) and (max-width: 3200px) {
     
     li {
-        font-size: 3.8rem;
+        font-size: 3.5rem;
     }
 }
 .fiche {

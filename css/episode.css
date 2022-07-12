@@ -115,7 +115,12 @@ ul {
         font-size: 1.5rem;
     }
     .texteep3 {
-        margin-top: 6%;
+        overflow-y: scroll;
+        height: 600px;
+        margin-top: 0;
+    }
+    ::-webkit-scrollbar {
+        display: none;
     }
     ul {
         justify-content: space-between;
