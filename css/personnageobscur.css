@@ -1,180 +1,179 @@
 @font-face {
-    font-family:"DINRegular.ttf";
-    src: url("../res/font/DINRegular.ttf");
+  font-family: "DINRegular.ttf";
+  src: url("../res/font/DINRegular.ttf");
 }
 body {
-    background-image: url(../res/img/fond\ obscur.png)
+  background-image: url(../res/img/fond\ obscur.png);
 }
-
 
 /* Effet de la barre lorsque la souris passe */
 
 .navbar ul li {
-    display: inline-block;
-    position: relative;
+  display: inline-block;
+  position: relative;
 }
 
 .navbar ul li::after {
-    content: "";
-    height: 3px;
-    width: 0%;
-    background: #ffffff;
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    transition: 0.5s;
+  content: "";
+  height: 3px;
+  width: 0%;
+  background: #ffffff;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
 }
 
 .navbar ul li:hover::after {
-    width: 100%;
+  width: 100%;
 }
-
 
 /* L'effet de la barre s'arrête ici */
 
 ul {
-    color: rgb(255, 0, 0);
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+  color: rgb(255, 0, 0);
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 li {
-    font-size: 1.8rem;
-    font-family:"DINRegular.ttf";
+  font-size: 1.8rem;
+  font-family: "DINRegular.ttf";
 }
 
 a {
-    text-decoration: none;
-    color: rgb(255, 0, 0);
+  text-decoration: none;
+  color: rgb(255, 0, 0);
 }
 
 a:hover {
-    color: white;
+  color: white;
 }
 
 ul img {
-    width: 180px;
+  width: 180px;
 }
 
 h1 {
-    color: white;
-    font-size: 5rem;
-    width: 380px;
-    text-align: center;
-    font-family:"DINRegular.ttf";
+  color: white;
+  font-size: 5rem;
+  width: 380px;
+  text-align: center;
+  font-family: "DINRegular.ttf";
 }
 
 h2 {
-    color: white;
-    font-size: 3rem;
-    font-family:"DINRegular.ttf";
+  color: white;
+  font-size: 3rem;
+  font-family: "DINRegular.ttf";
 }
 
 h3 {
-    color: white;
-    font-size: 3rem;
-    font-family:"DINRegular.ttf";
+  color: white;
+  font-size: 3rem;
+  font-family: "DINRegular.ttf";
 }
 
-
 .perso {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .perso1 {
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-    padding: 1%;
-
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 1%;
 }
 .perso2 {
-    padding: 1%;
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-
+  padding: 1%;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
 }
 .perso2 {
-    padding: 1%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 1%;
+  padding: 1%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 1%;
+}
 
+.perso3 h3{
+    font-size: 35px;
+    width: 220px;
 }
 
 .ep {
-    border: 1px solid white;
-    padding-top: 3%;
-    width: 380px;
-    margin-top: 1%;
-    border-radius: 15px;
-    padding: 3%;
+  border: 1px solid white;
+  padding-top: 3%;
+  width: 380px;
+  margin-top: 1%;
+  border-radius: 15px;
+  padding: 3%;
 }
 
 .photomovie {
-    display: flex;
-    justify-content: space-evenly;
-    gap: 5%;
-
+  display: flex;
+  justify-content: space-evenly;
+  gap: 5%;
 }
 
 .planete {
-    width: 380px;
+  width: 380px;
 }
 
 .indentification {
-    display: flex;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 
-    align-items: center;
-    border: 1px solid white;
+  align-items: center;
+  border: 1px solid white;
 }
 
 .photo img {
-    width: 400px;
-    border-radius: 50%;
+  width: 400px;
+  border-radius: 50%;
+  border: 2px solid white;
 }
 
 .planete {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 .statut {
-    display: flex;
+  display: flex;
 }
 .corp {
-    width: 280px;
+  width: 280px;
 }
 p {
-    color: white;
-    font-size: 2rem;
-    font-family:"DINRegular.ttf";
+  color: white;
+  font-size: 2rem;
+  font-family: "DINRegular.ttf";
 }
 
 @media (max-width: 1700px) {
-    li {
-        font-size: 1.5rem;
-    }
-    ul {
-        justify-content: space-between;
-    }
+  li {
+    font-size: 1.5rem;
+  }
+  ul {
+    justify-content: space-between;
+  }
+  .ep{
+    width: 320px;
+  }
 }
 
 @media (min-width: 2900px) and (max-width: 3200px) {
-    
-    li {
-        font-size: 3.8rem;
-    }
+  li {
+    font-size: 3.8rem;
+  }
 }
-
 
 /* .acteur {
     display: flex;
