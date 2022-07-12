@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" media="screen" href="../css/formulaire.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/main.css" />
     <title>Star Wars - Formulaire</title>
 </head>
 
@@ -17,21 +17,22 @@
                 <a href="../index.html">
                     <li>Accueil</li>
                 </a>
-                <a href="perso_dir.html">
+                <a href="vue/perso_dir.html">
                     <li>Personnages</li>
                 </a>
 
-                <a href="planetes.html">
+                <a href="vue/planetes.html">
                     <li>Planètes</li>
                 </a>
-                <a href="corporation.html">
+                <a href="vue/corporation.html">
                     <li>Corporation</li>
                 </a>
-                <a href="formulaire.html">
+                <a href="vue/formulaire.html">
                     <li>Contact</li>
                 </a>
-
-                <li>Inscription / Connexion</li>
+                <a href="vue/insconnexion.html">
+                    <li>Inscription / Connexion</li>
+                </a>
                 <img src="../res/img/Star_Wars_Logo..png" alt="" />
             </ul>
         </nav>
@@ -46,27 +47,23 @@
 
         <form action="/formulaire.php" method="get">
             <div class="form1">
-
-                <label for="Nom">Votre nom:</label>
-
-                <input type="text" name="nomFormulaire" id="nomFormulaire" required/>
-            </div>
-            <br>
-            <div class="form1">
-                <label for="Prenom">Votre prénom:</label>
-
-                <input type="text" name="prenomFormulaire" id="prenomFormulaire" />
+                <label for="Nom" style="color: yellow;margin-left: 50px;">Votre nom:</label>
+                <input type="text" name="nomFormulaire" id="nomFormulaire" required="" style="margin-left: 70px;">
             </div>
             <div class="form1">
-                <label for="Email">Votre adresse email:</label>
-                <input type="email" name="emailFormulaire" id="emailFormulaire" required/>
+                <label for="Prenom" style="color: yellow;margin-left: 50px;">Votre prénom:</label>
+                <input type="text" name="prenomFormulaire" id="prenomFormulaire" style="margin-left: 50px;">
+            </div>
+            <div class="form1">
+                <label for="Email" style="color: yellow;margin-left: 50px;">Votre adresse email:</label>
+                <input type="email" name="emailFormulaire" id="emailFormulaire" required="" style="margin-left: 10px;">
             </div>
             <br>
             <div class="form4">
-                <label for="questions">Vos questions,<br>remarques ou<br> suggestions:</label><br>
-                <textarea name="messageFormulaire" id="messageFormulaire" rows="10" cols="30">
-        Votre message ici...
-        </textarea>
+                <label for="questions" style="color: yellow;margin-left: 50px;">Vos questions, remarques ou suggestions:</label><br>
+                <textarea name="messageFormulaire" id="messageFormulaire" rows="10" cols="30" style="margin-left: 70px;width: 80%;">        Votre message ici...
+                Votre message ici...
+                </textarea>
             </div>
             <input type="submit" value="Envoyer">
         </form>
