@@ -3,7 +3,7 @@
   src: url("../res/font/DINRegular.ttf");
 }
 body {
-  background-image: url(../res/img/fond\ obscur.png);
+  background-image: url(../res/img/fond\ obscur.webp);
 }
 
 /* Effet de la barre lorsque la souris passe */

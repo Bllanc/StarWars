@@ -150,9 +150,10 @@ ul {
     }
 }
 
-@media (min-width: 2900px) and (max-width: 3200px) {
+@media (min-width: 2500px) and (max-width: 3200px) {
     .affiche img {
         width: 600px;
+        margin-top: 25%;
     }
     .titre img {
         width: 600px;
@@ -160,4 +161,9 @@ ul {
     li {
         font-size: 2.8rem;
     }
+    p{
+        font-size: 2rem;
+        height: 900px;
+    }
+
 }
