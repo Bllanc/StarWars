@@ -62,7 +62,6 @@ ul img {
 .container {
     width: 100%;
     height: 350px;
-    border: 2px solid white;
     display: flex;
     justify-content: center;
     align-items: center;

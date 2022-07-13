@@ -55,11 +55,13 @@ li {
     font-family: "DINRegular.ttf";
 }
 
-.couleuro a {
+.couleuro a,
+.histoireo a {
     color: red;
 }
 
-.couleurn a {
+.couleurn a,
+.histoiren a {
     text-decoration: none;
     color: yellow !important;
 }
@@ -214,12 +216,16 @@ p {
     }
     .ep {
         width: 320px;
+        height: 90px;
     }
 }
 
 @media (min-width: 1700px) and (max-width: 2200px) {
     .first {
         margin-top: 6%;
+    }
+    .ep {
+        height: 90px;
     }
 }
 

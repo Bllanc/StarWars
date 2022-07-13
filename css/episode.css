@@ -94,6 +94,12 @@ ul {
     justify-content: space-between;
 }
 
+.histoires a {
+    font-style: italic;
+    font-weight: bold;
+    color: #ffffff
+}
+
 .tds {
     display: flex;
     justify-content: space-evenly;
