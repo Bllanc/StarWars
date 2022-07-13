@@ -287,3 +287,9 @@ input {
         justify-content: space-between;
     }
 }
+
+@media (min-width: 1700px) and (max-width: 2200px) {
+    .first {
+        margin-top: 6%;
+    }
+}

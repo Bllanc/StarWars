@@ -218,6 +218,9 @@ ul img {
     .logo4 img {
         width: 140px;
     }
+    .first {
+        margin-top: 6%;
+    }
 }
 
 @media (min-width: 2900px) and (max-width: 3200px) {
