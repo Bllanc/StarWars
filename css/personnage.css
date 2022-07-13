@@ -3,9 +3,16 @@
     src: url("../res/font/DINRegular.ttf");
 }
 
-body {
+#neutre {
+    background-image: url(../res/img/fond_neutre.webp);
+}
+
+#gentil {
     background-image: url(../res/img/fond\ force.webp);
-    font-family: "DINRegular.ttf";
+}
+
+#mechant {
+    background-image: url(../res/img/fond\ obscur.webp);
 }
 
 
@@ -35,7 +42,7 @@ body {
 /* L'effet de la barre s'arrête ici */
 
 ul {
-    color: yellow;
+    color: rgb(255, 0, 0);
     list-style: none;
     display: flex;
     justify-content: space-evenly;
@@ -44,11 +51,22 @@ ul {
 
 li {
     font-size: 1.8rem;
+    font-family: "DINRegular.ttf";
 }
 
 a {
     text-decoration: none;
-    color: yellow;
+    color: #23aea9;
+}
+
+.couleuro {
+    text-decoration: none;
+    color: red !important;
+}
+
+.couleurn {
+    text-decoration: none;
+    color: yellow !important;
 }
 
 a:hover {
@@ -64,16 +82,19 @@ h1 {
     font-size: 5rem;
     width: 380px;
     text-align: center;
+    font-family: "DINRegular.ttf";
 }
 
 h2 {
     color: white;
     font-size: 3rem;
+    font-family: "DINRegular.ttf";
 }
 
 h3 {
     color: white;
     font-size: 3rem;
+    font-family: "DINRegular.ttf";
 }
 
 .perso {
@@ -102,6 +123,11 @@ h3 {
     justify-content: space-evenly;
     align-items: center;
     gap: 1%;
+}
+
+.perso3 h3 {
+    font-size: 35px;
+    width: 220px;
 }
 
 .ep {
@@ -133,6 +159,7 @@ h3 {
 .photo img {
     width: 400px;
     border-radius: 50%;
+    border: 2px solid white;
 }
 
 .planete {
@@ -152,4 +179,23 @@ h3 {
 p {
     color: white;
     font-size: 2rem;
+    font-family: "DINRegular.ttf";
+}
+
+@media (max-width: 1700px) {
+    li {
+        font-size: 1.5rem;
+    }
+    ul {
+        justify-content: space-between;
+    }
+    .ep {
+        width: 320px;
+    }
+}
+
+@media (min-width: 2900px) and (max-width: 3200px) {
+    li {
+        font-size: 3.8rem;
+    }
 }
