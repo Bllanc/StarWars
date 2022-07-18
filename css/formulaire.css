@@ -6,6 +6,7 @@
 body {
     background-image: url(../res/img/fond_neutre.webp);
     font-family: "DINRegular.ttf";
+    overflow: hidden;
 }
 
 li {
@@ -230,7 +231,7 @@ label {
     ul {
         justify-content: space-between;
     }
-    .first{
+    .first {
         margin-top: 10%;
     }
 }
@@ -242,17 +243,17 @@ label {
 }
 
 @media only screen and (max-width: 800px) {
-    form{
+    form {
         width: 430px;
         margin-left: 3%;
     }
-    form .corps-formulaire .droite .groupe textarea{
+    form .corps-formulaire .droite .groupe textarea {
         width: 200px;
     }
-li{
-    font-size: 0.7rem;
+    li {
+        font-size: 0.7rem;
+    }
+    ul img {
+        width: 80px;
+    }
 }
-ul img{
-    width: 80px;
-}
-  }

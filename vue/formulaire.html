@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Formulaire de contact</title>
     <link rel="stylesheet" href="../css/formulaire.css" />
+    <link rel="icon" href="../res/img/Star_Wars_Logo..webp" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet" />
 </head>
 
@@ -45,12 +46,12 @@
             <div class="gauche">
                 <div class="groupe">
                     <label>Votre Prénom</label>
-                    <input type="text" autocomplete="off" />
+                    <input type="text" autocomplete="off" required />
                     <i class="fas fa-user"></i>
                 </div>
                 <div class="groupe">
                     <label>Votre adresse e-mail</label>
-                    <input type="text" autocomplete="off" />
+                    <input type="email" autocomplete="off" required />
                     <i class="fas fa-envelope"></i>
                 </div>
                 <div class="groupe">
@@ -63,7 +64,7 @@
             <div class="droite">
                 <div class="groupe">
                     <label>Message</label>
-                    <textarea placeholder="Saisissez ici..."></textarea>
+                    <textarea placeholder="Saisissez ici..." required></textarea>
                 </div>
             </div>
         </div>
