@@ -98,7 +98,8 @@ ul img {
 .logo1 img,
 .logo2 img,
 .logo3 img,
-.logo4 img {
+.logo4 img,
+.logo5 img {
     width: 200px;
 }
 
@@ -130,8 +131,9 @@ ul img {
 
 .logo2,
 .logo3,
-.logo4 {
-    margin-left: 16%;
+.logo4,
+.logo5 {
+    margin-left: 12%;
 }
 
 .cadre5 img {
@@ -197,7 +199,8 @@ ul img {
     .logo1 img,
     .logo2 img,
     .logo3 img,
-    .logo4 img {
+    .logo4 img,
+    .logo5 img {
         width: 90px;
     }
     ul {
@@ -205,6 +208,9 @@ ul img {
     }
     li {
         font-size: 1.5rem;
+    }
+    .first {
+        margin-top: 10%;
     }
 }
 
@@ -215,7 +221,8 @@ ul img {
     .logo1 img,
     .logo2 img,
     .logo3 img,
-    .logo4 img {
+    .logo4 img,
+    .logo5 img {
         width: 140px;
     }
     .first {
@@ -230,7 +237,8 @@ ul img {
     .logo1 img,
     .logo2 img,
     .logo3 img,
-    .logo4 img {
+    .logo4 img,
+    .logo5 img {
         width: 160px;
     }
     li {

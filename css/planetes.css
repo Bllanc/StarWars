@@ -78,15 +78,24 @@ ul img {
 }
 
 p {
+    display: flex;
+    justify-content: center;
     color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-family: georgia;
+
 }
 
 section p {
     width: 300px;
     text-align: center;
+    align-items: center;
     margin: 0 auto;
     font-size: 3rem;
-    padding-top: 4%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+   
 }
 
 .planete .planete1 {
@@ -126,7 +135,7 @@ section p {
     text-align: center;
 }
 
-@media (max-width: 1700px) {
+@media (max-width: 1600px) {
     body {
         overflow-x: hidden;
     }
@@ -134,16 +143,20 @@ section p {
         width: 300px;
     }
     li {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
     ul {
         justify-content: space-between;
     }
     .cadre1 img {
-        width: 170px;
+        width: 150px;
     }
     section p {
-        font-size: 2rem;
+        font-size: 1.5rem;
+        width: 200px;
+    }
+    .first{
+        margin-top: 10%;
     }
 }
 

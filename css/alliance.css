@@ -42,6 +42,14 @@ ul {
     align-items: center;
 }
 
+#fdc a {
+    color: #dcb253;
+}
+
+#fdc a:hover {
+    color: white !important;
+}
+
 a {
     text-decoration: none;
     color: #04b1b7;
