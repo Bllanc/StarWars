@@ -1,88 +1,86 @@
 @font-face {
-    font-family: "DINRegular.ttf";
-    src: url("../res/font/DINRegular.ttf");
+  font-family: "DINRegular.ttf";
+  src: url("../res/font/DINRegular.ttf");
 }
 
 body {
-    background-image: url(../res/img/background-stars-desktop_00cbf8a9dddd.webp);
-    font-family: "DINRegular.ttf";
+  background-image: url(../res/img/background-stars-desktop_00cbf8a9dddd.webp);
+  font-family: "DINRegular.ttf";
 }
-
 
 /* Effet de la barre lorsque la souris passe */
 
 .navbar ul li {
-    display: inline-block;
-    position: relative;
+  display: inline-block;
+  position: relative;
 }
 
 .navbar ul li::after {
-    content: "";
-    height: 3px;
-    width: 0%;
-    background: white;
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    transition: 0.5s;
+  content: "";
+  height: 3px;
+  width: 0%;
+  background: white;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
 }
 
 .navbar ul li:hover::after {
-    width: 100%;
+  width: 100%;
 }
-
 
 /* L'effet de la barre s'arrête ici */
 
 ul {
-    color: yellow;
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+  color: yellow;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 a {
-    text-decoration: none;
-    color: yellow;
+  text-decoration: none;
+  color: yellow;
 }
 
 a:hover {
-    color: white;
+  color: white;
 }
 
 li {
-    font-size: 1.8rem;
+  font-size: 1.8rem;
 }
 
 ul img {
-    width: 180px;
+  width: 180px;
 }
 
 .titre {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .titre img {
-    width: 500px;
+  width: 500px;
 }
 
 .affiche {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 3%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 3%;
 }
 
 .cadre1 img,
 .cadre2 img,
 .cadre3 img,
 .cadre4 img {
-    width: 400px;
-    border: 2px solid white;
-    border-radius: 20px;
+  width: 400px;
+  border: 2px solid white;
+  border-radius: 20px;
 }
 
 .cadre1,
@@ -92,156 +90,171 @@ ul img {
 .cadre5,
 .cadre6,
 .cadre7 {
-    transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 .logo1 img,
 .logo2 img,
 .logo3 img,
-.logo4 img,
-.logo5 img {
-    width: 200px;
+.logo4 img {
+  width: 200px;
 }
 
 .cadre1:hover {
-    transform: scale(1.1);
-    transition: all 1s ease-in-out;
+  transform: scale(1.1);
+  transition: all 1s ease-in-out;
 }
 
 .cadre2:hover {
-    transform: scale(1.1);
-    transition: all 1s ease-in-out;
+  transform: scale(1.1);
+  transition: all 1s ease-in-out;
 }
 
 .cadre3:hover {
-    transform: scale(1.1);
-    transition: all 1s ease-in-out;
+  transform: scale(1.1);
+  transition: all 1s ease-in-out;
 }
 
 .cadre4:hover {
-    transform: scale(1.1);
-    transition: all 1s ease-in-out;
+  transform: scale(1.1);
+  transition: all 1s ease-in-out;
 }
 
 .affichelogo {
-    display: flex;
-    justify-content: center;
-    margin-top: 2%;
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
 }
 
 .logo2,
 .logo3,
-.logo4,
-.logo5 {
-    margin-left: 12%;
+.logo4 {
+  margin-left: 16%;
 }
 
 .cadre5 img {
-    width: 400px;
-    border: 2px solid red;
-    border-radius: 20px;
+  width: 400px;
+  border: 2px solid red;
+  border-radius: 20px;
 }
 
 .cadre5:hover {
-    transform: scale(1.1);
-    transition: all 1s ease-in-out;
+  transform: scale(1.1);
+  transition: all 1s ease-in-out;
 }
 
 .cadre6 img {
-    width: 400px;
-    border: 2px solid #23aea9;
-    border-radius: 20px;
+  width: 400px;
+  border: 2px solid #23aea9;
+  border-radius: 20px;
 }
 
 .cadre6:hover {
-    transform: scale(1.1);
-    transition: all 1s ease-in-out;
+  transform: scale(1.1);
+  transition: all 1s ease-in-out;
 }
 
 .cadre7 img {
-    width: 400px;
-    border: 2px solid grey;
-    border-radius: 20px;
+  width: 400px;
+  border: 2px solid grey;
+  border-radius: 20px;
 }
 
 .cadre7:hover {
-    transform: scale(1.1);
-    transition: all 1s ease-in-out;
+  transform: scale(1.1);
+  transition: all 1s ease-in-out;
 }
 
 .first {
-    display: flex;
-    justify-content: space-around;
-    height: 170px;
-    background-color: rgba(255, 255, 255, 0.063);
+  display: flex;
+  justify-content: space-around;
+  height: 170px;
+  background-color: rgba(255, 255, 255, 0.063);
 }
 
 .footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 10px;
 }
 
 .footer a {
-    margin: -5%;
+  margin: -5%;
 }
 
 .bas {
-    color: white;
-    text-align: center;
+  color: white;
+  text-align: center;
 }
 
 @media (max-width: 1700px) {
-    .affiche img {
-        width: 200px;
-    }
-    .logo1 img,
-    .logo2 img,
-    .logo3 img,
-    .logo4 img,
-    .logo5 img {
-        width: 90px;
-    }
-    ul {
-        justify-content: space-between;
-    }
-    li {
-        font-size: 1.5rem;
-    }
-    .first {
-        margin-top: 10%;
-    }
+  .affiche img {
+    width: 200px;
+  }
+  .logo1 img,
+  .logo2 img,
+  .logo3 img,
+  .logo4 img {
+    width: 90px;
+  }
+  ul {
+    justify-content: space-between;
+  }
+  li {
+    font-size: 1.5rem;
+  }
+  .first {
+    margin-top: 10%;
+  }
 }
 
 @media (min-width: 1700px) and (max-width: 2200px) {
-    .affiche img {
-        width: 250px;
-    }
-    .logo1 img,
-    .logo2 img,
-    .logo3 img,
-    .logo4 img,
-    .logo5 img {
-        width: 140px;
-    }
-    .first {
-        margin-top: 6%;
-    }
+  .affiche img {
+    width: 250px;
+  }
+  .logo1 img,
+  .logo2 img,
+  .logo3 img,
+  .logo4 img {
+    width: 140px;
+  }
+  .first {
+    margin-top: 6%;
+  }
 }
 
 @media (min-width: 2900px) and (max-width: 3200px) {
-    .affiche img {
-        width: 400px;
-    }
-    .logo1 img,
-    .logo2 img,
-    .logo3 img,
-    .logo4 img,
-    .logo5 img {
-        width: 160px;
-    }
-    li {
-        font-size: 2.8rem;
-    }
+  .affiche img {
+    width: 400px;
+  }
+  .logo1 img,
+  .logo2 img,
+  .logo3 img,
+  .logo4 img {
+    width: 160px;
+  }
+  li {
+    font-size: 2.8rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .affiche img {
+    width: 150px;
+    margin-bottom: 10%;
+  }
+
+  .affiche {
+    flex-direction: column;
+  }
+  .ensemblelogo {
+    display: none;
+  }
+  li {
+    font-size: 0.7rem;
+  }
+  ul img {
+    width: 80px;
+  }
 }

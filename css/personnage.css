@@ -55,15 +55,21 @@ li {
     font-family: "DINRegular.ttf";
 }
 
-.couleuro a,
-.histoireo a {
+#mechant a {
     color: red;
 }
 
-.couleurn a,
-.histoiren a {
+#mechant a:hover {
+    color: white
+}
+
+#neutre a {
     text-decoration: none;
     color: yellow !important;
+}
+
+#neutre a:hover {
+    color: white !important;
 }
 
 a {
@@ -233,4 +239,36 @@ p {
     li {
         font-size: 3.8rem;
     }
+}
+@media only screen and (max-width: 800px) {
+  .photo img {
+    width: 150px;
+  }
+  .planete {
+    width: 200px;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  li {
+    font-size: 0.7rem;
+  }
+  ul img {
+    width: 80px;
+  }
+  .corp {
+    width: 140px;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1.3rem;
+  }
+h1{
+    width: 155px;
+}
+.photomovie{
+    flex-direction: column;
+}
 }

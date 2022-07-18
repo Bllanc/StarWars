@@ -225,7 +225,7 @@ label {
         width: 300px;
     }
     li {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
     ul {
         justify-content: space-between;
@@ -240,3 +240,19 @@ label {
         margin-top: 6%;
     }
 }
+
+@media only screen and (max-width: 800px) {
+    form{
+        width: 430px;
+        margin-left: 3%;
+    }
+    form .corps-formulaire .droite .groupe textarea{
+        width: 200px;
+    }
+li{
+    font-size: 0.7rem;
+}
+ul img{
+    width: 80px;
+}
+  }

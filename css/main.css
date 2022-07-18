@@ -191,3 +191,27 @@ ul img {
     padding-top: 0%;
   }
 }
+
+@media only screen and (max-width: 800px) {
+  .affiche img {
+    width: 150px;
+  }
+  .titre img {
+    width: 150px;
+  }
+  .affiche {
+    flex-direction: column;
+  }
+  .titre {
+    display: none;
+  }
+  li {
+    font-size: 0.7rem;
+  }
+  ul img {
+    width: 80px;
+  }
+  iframe{
+    width: 400px;
+  }
+}

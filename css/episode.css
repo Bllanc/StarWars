@@ -211,3 +211,39 @@ ul {
     height: 900px;
   }
 }
+
+@media only screen and (max-width: 800px) {
+  .affiche img {
+    width: 150px;
+  }
+  .titre img {
+    width: 150px;
+  }
+  .affiche {
+    flex-direction: column;
+  }
+  .titre {
+    display: none;
+  }
+  .tds {
+    flex-direction: column;
+    margin-top: 10%;
+  }
+  li {
+    font-size: 0.7rem;
+  }
+  ul img {
+    width: 80px;
+  }
+  p {
+    width: 500px;
+    font-size: 0.8rem;
+  }
+  iframe {
+    width: 400px;
+    margin-top: 15%;
+  }
+  .video {
+    margin-left: -295px;
+  }
+}
